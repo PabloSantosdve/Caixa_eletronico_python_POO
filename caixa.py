@@ -103,3 +103,20 @@ class OperacaoDeposito(Transacao):
 
     def executar(self, conta):
         conta.depositar(self.valor)
+
+
+
+# Cria um cliente
+pablo = Cliente("Pablo", "12345678900", "01/01/2000", "Av. Dev Z, 404")
+
+# Abre conta
+conta1 = ContaCorrente("000123", pablo)
+pablo.abrir_conta(conta1)
+
+# Executa transações
+deposito = OperacaoDeposito(1000)
+saque = OperacaoSaque(200)
+
+deposito.executar(conta1)
+saque.executar(conta1)
+conta1.extrato()
