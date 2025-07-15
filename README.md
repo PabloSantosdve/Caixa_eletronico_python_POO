@@ -6,10 +6,3 @@ Este é um sistema bancário simples feito com Python, usando Programação Orie
 
 - Substituir dicionários por **objetos** para representar clientes, contas e transações.
 - Aplicar conceitos de **POO**: abstração, herança e polimorfismo.
-
-## 🧱 Funcionalidades
-
-- Criar cliente
-- Criar conta corrente
-- Depositar e sacar
-- Mostrar extrato com histórico das transações
