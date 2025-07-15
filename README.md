@@ -1,2 +1,15 @@
-# Caixa_eletronico_python_POO
-Caixa eletronico usando POO (Programação Orientada a Objtos)
+# 💼 Sistema Bancário em Python - Desafio DIO
+
+Este é um sistema bancário simples feito com Python, usando Programação Orientada a Objetos. Ele foi feito como parte de um desafio da DIO.
+
+## ✅ Objetivo
+
+- Substituir dicionários por **objetos** para representar clientes, contas e transações.
+- Aplicar conceitos de **POO**: abstração, herança e polimorfismo.
+
+## 🧱 Funcionalidades
+
+- Criar cliente
+- Criar conta corrente
+- Depositar e sacar
+- Mostrar extrato com histórico das transações
