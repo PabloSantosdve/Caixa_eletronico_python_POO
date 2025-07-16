@@ -40,7 +40,7 @@ class Historico:
     def gerar_relatorio(self, tipo=None):
         for t in self.transacoes:
             if tipo is None or t['tipo'].lower() == tipo.lower():
-                yield t
+                yield True
 
 # ===================== ContaBancaria =====================
 class ContaBancaria(ABC):
