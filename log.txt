@@ -1,0 +1,6 @@
+[21/07/2025 16:56:33] Função: abrir_conta | Argumentos: args=(<__main__.Cliente object at 0x000002622BF86BA0>, <__main__.ContaCorrente object at 0x000002622BF874D0>), kwargs={} | Retorno: None
+[21/07/2025 16:56:33] Função: depositar | Argumentos: args=(<__main__.ContaCorrente object at 0x000002622BF874D0>, 1000), kwargs={} | Retorno: True
+[21/07/2025 16:56:33] Função: executar | Argumentos: args=(<__main__.OperacaoDeposito object at 0x000002622BF87230>, <__main__.ContaCorrente object at 0x000002622BF874D0>), kwargs={} | Retorno: True
+[21/07/2025 16:56:33] Função: sacar | Argumentos: args=(<__main__.ContaCorrente object at 0x000002622BF874D0>, 200), kwargs={} | Retorno: True
+[21/07/2025 16:56:33] Função: executar | Argumentos: args=(<__main__.OperacaoSaque object at 0x000002622BF87230>, <__main__.ContaCorrente object at 0x000002622BF874D0>), kwargs={} | Retorno: True
+[2025-07-21 19:59:24] Fun��o 'depositar' executada com argumentos ([],) e {}. Retornou None
